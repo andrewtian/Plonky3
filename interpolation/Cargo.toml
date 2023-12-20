@@ -8,6 +8,7 @@ license = "MIT OR Apache-2.0"
 p3-field = { path = "../field" }
 p3-matrix = { path = "../matrix" }
 p3-util = { path = "../util" }
+tracing = { version = "0.1.37", default-features = false, features = ["attributes"] }
 
 [dev-dependencies]
 p3-baby-bear = { path = "../baby-bear" }

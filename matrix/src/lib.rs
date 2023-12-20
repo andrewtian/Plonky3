@@ -4,6 +4,8 @@
 
 extern crate alloc;
 
+extern crate core;
+
 use alloc::vec::Vec;
 use core::fmt::{Debug, Display, Formatter};
 

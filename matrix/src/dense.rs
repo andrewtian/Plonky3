@@ -4,7 +4,7 @@ use core::iter::Cloned;
 use core::slice;
 
 use p3_field::{ExtensionField, Field, PackedField};
-use p3_maybe_rayon::{IndexedParallelIterator, MaybeParChunksMut, ParallelIterator};
+use p3_maybe_rayon::*;
 use rand::distributions::{Distribution, Standard};
 use rand::Rng;
 
@@ -53,6 +53,7 @@ impl<T> RowMajorMatrix<T> {
         self.values.chunks_exact_mut(self.width)
     }
 
+    #[cfg(feature = "parallel")]
     pub fn par_row_chunks_mut(
         &mut self,
         chunk_rows: usize,
@@ -62,6 +63,19 @@ impl<T> RowMajorMatrix<T> {
     {
         self.values
             .par_chunks_exact_mut(self.width * chunk_rows)
+            .map(|slice| RowMajorMatrixViewMut::new(slice, self.width))
+    }
+
+    #[cfg(not(feature = "parallel"))]
+    pub fn par_row_chunks_mut(
+        &mut self,
+        chunk_rows: usize,
+    ) -> impl Iterator<Item = RowMajorMatrixViewMut<T>>
+    where
+        T: Send,
+    {
+        self.values
+            .chunks_exact_mut(self.width * chunk_rows)
             .map(|slice| RowMajorMatrixViewMut::new(slice, self.width))
     }
 
@@ -307,6 +321,7 @@ impl<'a, T> RowMajorMatrixViewMut<'a, T> {
         self.values.chunks_exact_mut(self.width)
     }
 
+    #[cfg(feature = "parallel")]
     pub fn par_rows_mut(&mut self) -> impl IndexedParallelIterator<Item = &mut [T]>
     where
         T: Send,
@@ -314,6 +329,15 @@ impl<'a, T> RowMajorMatrixViewMut<'a, T> {
         self.values.par_chunks_exact_mut(self.width)
     }
 
+    #[cfg(not(feature = "parallel"))]
+    pub fn par_rows_mut(&mut self) -> impl Iterator<Item = &mut [T]>
+    where
+        T: Send,
+    {
+        self.values.par_chunks_exact_mut(self.width)
+    }
+
+    #[cfg(feature = "parallel")]
     pub fn par_row_chunks_mut(
         &mut self,
         size: usize,
@@ -322,6 +346,14 @@ impl<'a, T> RowMajorMatrixViewMut<'a, T> {
         T: Send,
     {
         self.values.par_chunks_exact_mut(size * self.width)
+    }
+
+    #[cfg(not(feature = "parallel"))]
+    pub fn par_row_chunks_mut(&mut self, size: usize) -> impl Iterator<Item = &mut [T]>
+    where
+        T: Send,
+    {
+        self.values.chunks_exact_mut(size * self.width)
     }
 
     pub fn rows(&self) -> impl Iterator<Item = &[T]> {

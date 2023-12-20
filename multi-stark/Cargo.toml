@@ -4,13 +4,17 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
+[features]
+default = ["parallel"]
+parallel = ["p3-maybe-rayon/parallel"]
+
 [dependencies]
 p3-air = { path = "../air" }
 p3-field = { path = "../field" }
 p3-challenger = { path = "../challenger" }
 p3-commit = { path = "../commit" }
 p3-matrix = { path = "../matrix" }
-p3-maybe-rayon = { path = "../maybe-rayon" }
+p3-maybe-rayon = { path = "../maybe-rayon", default-features = false }
 p3-util = { path = "../util" }
 
 [dev-dependencies]

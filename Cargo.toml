@@ -31,5 +31,11 @@ members = [
     "symmetric",
     "tensor-pcs",
     "util",
-    "uni-stark",
+    "uni-stark"
 ]
+
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+strip = "symbols"

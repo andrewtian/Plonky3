@@ -6,7 +6,8 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 gcd = "2.3.0"
-itertools = "0.12.0"
+itertools = { version = "0.12.0", default-features = false, features = ["use_alloc"] }
+
 modinverse = "0.1.1"
 num = "0.4.0"
 num-integer = "0.1.45"
@@ -14,7 +15,7 @@ p3-field = { path = "../field" }
 p3-mds = { path = "../mds" }
 p3-symmetric = { path = "../symmetric" }
 p3-util = { path = "../util" }
-rand = "0.8.5"
+rand = { version = "0.8.5", default-features = false }
 sha3 = "0.10.8"
 
 [dev-dependencies]

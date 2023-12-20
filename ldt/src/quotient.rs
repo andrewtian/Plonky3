@@ -15,6 +15,7 @@ use p3_field::{
 use p3_matrix::dense::RowMajorMatrix;
 use p3_matrix::{Dimensions, Matrix, MatrixRowSlices, MatrixRows};
 use p3_util::{log2_strict_usize, reverse_bits_len, reverse_slice_index_bits};
+use tracing::info;
 
 /// A wrapper around an Inner MMCS, which transforms each inner value to (inner - r(X)) / m(X),
 /// where m(X) is the minimal polynomial of the opening point, and r(X) = inner mod m(X).

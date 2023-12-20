@@ -1,6 +1,15 @@
+#![cfg_attr(not(feature = "parallel"), no_std)]
+
+#[macro_use]
+extern crate alloc;
+
+use alloc::vec::Vec;
+use core::marker::Send;
 #[cfg(not(feature = "parallel"))]
 use core::{
     iter::{FlatMap, IntoIterator, Iterator},
+    marker::Sized,
+    ops::{Fn, FnOnce},
     slice::{Chunks, ChunksExact, ChunksExactMut, ChunksMut, Windows},
 };
 
@@ -53,7 +62,7 @@ where
 #[cfg(not(feature = "parallel"))]
 impl<'data, T: 'data> MaybeParIter<'data> for Vec<T> {
     type Item = &'data T;
-    type Iter = std::slice::Iter<'data, T>;
+    type Iter = core::slice::Iter<'data, T>;
 
     fn par_iter(&'data self) -> Self::Iter {
         self.iter()
@@ -63,7 +72,7 @@ impl<'data, T: 'data> MaybeParIter<'data> for Vec<T> {
 #[cfg(not(feature = "parallel"))]
 impl<'data, T: 'data> MaybeParIter<'data> for [T] {
     type Item = &'data T;
-    type Iter = std::slice::Iter<'data, T>;
+    type Iter = core::slice::Iter<'data, T>;
 
     fn par_iter(&'data self) -> Self::Iter {
         self.iter()
@@ -102,7 +111,7 @@ where
 #[cfg(not(feature = "parallel"))]
 impl<'data, T: 'data> MaybeParIterMut<'data> for Vec<T> {
     type Item = &'data mut T;
-    type Iter = std::slice::IterMut<'data, T>;
+    type Iter = core::slice::IterMut<'data, T>;
 
     fn par_iter_mut(&'data mut self) -> Self::Iter {
         self.iter_mut()
@@ -112,7 +121,7 @@ impl<'data, T: 'data> MaybeParIterMut<'data> for Vec<T> {
 #[cfg(not(feature = "parallel"))]
 impl<'data, T: 'data> MaybeParIterMut<'data> for [T] {
     type Item = &'data mut T;
-    type Iter = std::slice::IterMut<'data, T>;
+    type Iter = core::slice::IterMut<'data, T>;
 
     fn par_iter_mut(&'data mut self) -> Self::Iter {
         self.iter_mut()
