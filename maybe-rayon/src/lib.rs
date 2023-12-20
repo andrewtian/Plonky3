@@ -1,15 +1,12 @@
 #![cfg_attr(not(feature = "parallel"), no_std)]
 
-#[macro_use]
 extern crate alloc;
 
-use alloc::vec::Vec;
-use core::marker::Send;
+use core::marker::{Send, Sized};
+use core::ops::FnOnce;
 #[cfg(not(feature = "parallel"))]
 use core::{
     iter::{FlatMap, IntoIterator, Iterator},
-    marker::Sized,
-    ops::{Fn, FnOnce},
     slice::{Chunks, ChunksExact, ChunksExactMut, ChunksMut, Windows},
 };
 
