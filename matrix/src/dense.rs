@@ -334,7 +334,7 @@ impl<'a, T> RowMajorMatrixViewMut<'a, T> {
     where
         T: Send,
     {
-        self.values.par_chunks_exact_mut(self.width)
+        self.values.chunks_exact_mut(self.width)
     }
 
     #[cfg(feature = "parallel")]
