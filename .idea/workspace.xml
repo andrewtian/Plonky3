@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16c5a10c-8f56-4b23-b39e-9956d9a48c55" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/uni-stark/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/uni-stark/src/lib.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;andrewtian&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1703090539" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="restricted-std-support" />
+                    <option name="lastUsedInstant" value="1703089397" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="base-fold-fri" />
+                    <option name="lastUsedInstant" value="1702611031" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="junk" />
+                    <option name="lastUsedInstant" value="1702611020" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="binius-base-fold-binary-field-pcs" />
+                    <option name="lastUsedInstant" value="1701751390" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="96ce4146-df5d-4f9b-8183-27b191f6f326" />
+        <option name="url" value="git@github.com:Plonky3/Plonky3.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="internal-cluster" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="wgdduoq0" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2TvOvE1tWBzwisJc6SGJREeKTlt" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Build `Test binary_field::tests::test_binary_field`.executor": "Run",
+    "Cargo.Test binary_field::tests::test_binary_field.executor": "Run",
+    "Cargo.Test sum_check::tests::test_sumcheck.executor": "Run",
+    "Cargo.Test sumcheck::tests::test_sumcheck.executor": "Run",
+    "Cargo.Test test_prove_baby_bear.executor": "Run",
+    "Cargo.Test test_quintic_extension.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/andrewtian/p/_l2btc/Plonky3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "language.rust.rustfmt",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Rust"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/field" />
+      <recent name="$PROJECT_DIR$/binius-fold/benches" />
+      <recent name="$PROJECT_DIR$/binius-fold/src" />
+      <recent name="$PROJECT_DIR$/gf2/src/arch/aarch64" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.Test test_prove_baby_bear">
+    <configuration name="Test columns::print_num_cols" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package p3-keccak-air --lib columns::print_num_cols -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test sum_check::tests::test_sumcheck" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package p3-binius-fold --lib sum_check::tests::test_sumcheck -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test sumcheck::tests::test_sumcheck" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package p3-binius-fold --lib sumcheck::tests::test_sumcheck -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test_prove_baby_bear" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package p3-uni-stark --test mul_air test_prove_baby_bear -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test test_quintic_extension" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package p3-goldilocks --lib extension::test_quintic_extension" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Test sum_check::tests::test_sumcheck" />
+      <item itemvalue="Cargo.Test sumcheck::tests::test_sumcheck" />
+      <item itemvalue="Cargo.Test test_quintic_extension" />
+      <item itemvalue="Cargo.Test test_prove_baby_bear" />
+      <item itemvalue="Cargo.Test columns::print_num_cols" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test test_prove_baby_bear" />
+        <item itemvalue="Cargo.Test sum_check::tests::test_sumcheck" />
+        <item itemvalue="Cargo.Test sumcheck::tests::test_sumcheck" />
+        <item itemvalue="Cargo.Test test_quintic_extension" />
+        <item itemvalue="Cargo.Test columns::print_num_cols" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="RustfmtProjectSettings">
+    <option name="runRustfmtOnSave" value="true" />
+    <option name="useRustfmt" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16c5a10c-8f56-4b23-b39e-9956d9a48c55" name="Changes" comment="" />
+      <created>1691920316526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691920316526</updated>
+      <workItem from="1691920317844" duration="3515000" />
+      <workItem from="1691925277245" duration="7457000" />
+      <workItem from="1691944718595" duration="4676000" />
+      <workItem from="1692074245121" duration="599000" />
+      <workItem from="1692119138909" duration="4408000" />
+      <workItem from="1692323275673" duration="3035000" />
+      <workItem from="1692332457242" duration="1441000" />
+      <workItem from="1692631163157" duration="8802000" />
+      <workItem from="1692743465306" duration="20026000" />
+      <workItem from="1692970708925" duration="5821000" />
+      <workItem from="1693448037766" duration="3333000" />
+      <workItem from="1693461371169" duration="604000" />
+      <workItem from="1693465555599" duration="599000" />
+      <workItem from="1693807894256" duration="9458000" />
+      <workItem from="1693846106150" duration="9373000" />
+      <workItem from="1693885026256" duration="3962000" />
+      <workItem from="1693945338844" duration="1777000" />
+      <workItem from="1694104985829" duration="1715000" />
+      <workItem from="1694160715556" duration="599000" />
+      <workItem from="1694225097694" duration="3298000" />
+      <workItem from="1694359475001" duration="1182000" />
+      <workItem from="1694936830303" duration="2129000" />
+      <workItem from="1695128694292" duration="2127000" />
+      <workItem from="1695135674580" duration="587000" />
+      <workItem from="1695137411313" duration="87000" />
+      <workItem from="1695137519368" duration="601000" />
+      <workItem from="1695172104915" duration="15000" />
+      <workItem from="1695172316628" duration="110000" />
+      <workItem from="1695172463367" duration="596000" />
+      <workItem from="1695173089190" duration="598000" />
+      <workItem from="1695317298168" duration="7806000" />
+      <workItem from="1695699851337" duration="605000" />
+      <workItem from="1695700518830" duration="4840000" />
+      <workItem from="1695813820722" duration="456000" />
+      <workItem from="1695814294105" duration="8359000" />
+      <workItem from="1696039839425" duration="600000" />
+      <workItem from="1696041742059" duration="833000" />
+      <workItem from="1696044150171" duration="36000" />
+      <workItem from="1696044214313" duration="4987000" />
+      <workItem from="1696499881462" duration="15136000" />
+      <workItem from="1697089188724" duration="4364000" />
+      <workItem from="1697107697744" duration="1958000" />
+      <workItem from="1697111017189" duration="5947000" />
+      <workItem from="1697122163011" duration="5409000" />
+      <workItem from="1697671391351" duration="362000" />
+      <workItem from="1697923416443" duration="8212000" />
+      <workItem from="1697937663499" duration="6393000" />
+      <workItem from="1697944120414" duration="414000" />
+      <workItem from="1697944559985" duration="16398000" />
+      <workItem from="1697973016118" duration="2000" />
+      <workItem from="1697976591731" duration="10000" />
+      <workItem from="1698007437644" duration="19567000" />
+      <workItem from="1698055614987" duration="597000" />
+      <workItem from="1698057613310" duration="44267000" />
+      <workItem from="1698400867438" duration="477000" />
+      <workItem from="1698401406463" duration="1172000" />
+      <workItem from="1698444398819" duration="5173000" />
+      <workItem from="1698570754783" duration="7000" />
+      <workItem from="1698583950776" duration="3180000" />
+      <workItem from="1698730576405" duration="13123000" />
+      <workItem from="1698900530078" duration="188000" />
+      <workItem from="1698901097004" duration="610000" />
+      <workItem from="1698903537852" duration="1184000" />
+      <workItem from="1698905213022" duration="8688000" />
+      <workItem from="1698940901426" duration="13933000" />
+      <workItem from="1699169094355" duration="17133000" />
+      <workItem from="1699352210166" duration="11529000" />
+      <workItem from="1699386642263" duration="2620000" />
+      <workItem from="1699526277938" duration="1181000" />
+      <workItem from="1699537450516" duration="15463000" />
+      <workItem from="1699852662832" duration="600000" />
+      <workItem from="1699889819317" duration="5000" />
+      <workItem from="1699985742633" duration="12647000" />
+      <workItem from="1700193492617" duration="13972000" />
+      <workItem from="1700333221133" duration="32656000" />
+      <workItem from="1700561367715" duration="25323000" />
+      <workItem from="1701086483670" duration="8315000" />
+      <workItem from="1701130182166" duration="4475000" />
+      <workItem from="1701217259443" duration="11215000" />
+      <workItem from="1701373799766" duration="2816000" />
+      <workItem from="1701379173175" duration="4309000" />
+      <workItem from="1701389014973" duration="106055000" />
+      <workItem from="1701796029372" duration="6033000" />
+      <workItem from="1701898431358" duration="2319000" />
+      <workItem from="1701902045235" duration="5272000" />
+      <workItem from="1701921782124" duration="9058000" />
+      <workItem from="1701948187447" duration="2322000" />
+      <workItem from="1701950810062" duration="50730000" />
+      <workItem from="1702248869774" duration="62543000" />
+      <workItem from="1702509164154" duration="104000" />
+      <workItem from="1702509567974" duration="1311000" />
+      <workItem from="1702512014820" duration="27119000" />
+      <workItem from="1702613023686" duration="65415000" />
+      <workItem from="1703088428429" duration="622000" />
+      <workItem from="1703089065096" duration="3376000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/mersenne-31/src/complex.rs</url>
+          <line>65</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/uni-stark/src/prover.rs</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/fri/src/prover.rs</url>
+          <line>163</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
