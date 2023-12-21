@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [features]
-default = ["parallel"]
+default = []
 parallel = ["p3-maybe-rayon/parallel"]
 
 [dependencies]
@@ -15,7 +15,7 @@ p3-field = { path = "../field" }
 p3-matrix = { path = "../matrix" }
 p3-maybe-rayon = { path = "../maybe-rayon", default-features = false }
 p3-util = { path = "../util" }
-rand = "0.8.5"
+rand = { version = "0.8.5", default-features = false }
 serde = { version = "1.0", default-features = false, features = ["alloc", "derive"] }
 
 [[bench]]

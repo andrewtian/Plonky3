@@ -11,7 +11,6 @@ p3-matrix = { path = "../matrix" }
 p3-util = { path = "../util" }
 tracing = { version = "0.1.37", default-features = false, features = ["attributes"] }
 
-
 [dev-dependencies]
 p3-baby-bear = { path = "../baby-bear" }
 p3-challenger = { path = "../challenger" }
