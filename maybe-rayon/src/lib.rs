@@ -2,6 +2,8 @@
 
 extern crate alloc;
 
+#[cfg(not(feature = "parallel"))]
+pub use alloc::vec::Vec;
 use core::marker::{Send, Sized};
 use core::ops::FnOnce;
 #[cfg(not(feature = "parallel"))]
